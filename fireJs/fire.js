@@ -10,7 +10,7 @@ const fireColorsPalette = {
 };
 var intens = 3;
 var wing = 0;
-var color = 3;
+var color = 1;
 
 const pr = document.getElementById("root");
 
