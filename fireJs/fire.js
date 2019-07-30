@@ -31,7 +31,7 @@ function calcFirePropagation(){
             if(i+1<fireHeight){
                 var decay = Math.floor(Math.random() * intens);
                 if(j-1<0){
-                    var rand = fireArray[i+1][fireHeight-1] - decay;
+                    var rand = fireArray[i+1][fireHeight-j] - decay;
                 }else{
                     var rand = fireArray[i+1][j-1] - decay;     
                 }
